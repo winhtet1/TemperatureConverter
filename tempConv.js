@@ -17,7 +17,7 @@ document.getElementById("submitBtn").onclick = function(){
     else {
         document.getElementById("tempLabel").innerHTML = "Select a unit.";
     }
-
+// two line of temp = document~~ and temp = Number(temp) can be outside of if condition.
 
 }
 temp = toFahrenheit(temp);
